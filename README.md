@@ -1,13 +1,13 @@
 <h1 align="center" >
-  <img height="60px" width="280px" src="https://user-images.githubusercontent.com/43184223/110522926-3a16a100-80f0-11eb-9f93-513653198339.png">
+  <img height="60px" width="260px" src="https://user-images.githubusercontent.com/43184223/110522926-3a16a100-80f0-11eb-9f93-513653198339.png">
 </h1>
 
 <p align="center">
   <a href="https://reactjs.org/"><img src="https://img.shields.io/static/v1?label=React&message=17.0.1&color=blue&style=flat"/><a/>
-  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/static/v1?label=TypeScript&message=^4.1.2&color=blue&style=flat"/><a/>
-  <a href="https://reactrouter.com/web/guides/quick-start/"><img src="https://img.shields.io/static/v1?label=React-Router-DOM&message=^4.2.0&color=blue&style=flat"/><a/>
-  <a href="https://github.com/axios/axios"><img src="https://img.shields.io/static/v1?label=Axios&message=^0.21.1&color=blue&style=flat"/><a/>
-  <a href="https://momentjs.com/"><img src="https://img.shields.io/static/v1?label=Moment&message=^0.21.1&color=blue&style=flat"/><a/>
+  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/static/v1?label=TypeScript&message=4.1.2&color=blue&style=flat"/><a/>
+  <a href="https://reactrouter.com/web/guides/quick-start/"><img src="https://img.shields.io/static/v1?label=React-Router-DOM&message=5.2.0&color=blue&style=flat"/><a/>
+  <a href="https://github.com/axios/axios"><img src="https://img.shields.io/static/v1?label=Axios&message=0.21.1&color=blue&style=flat"/><a/>
+  <a href="https://momentjs.com/"><img src="https://img.shields.io/static/v1?label=Moment&message=2.29.1&color=blue&style=flat"/><a/>
 </p>
 
 ### Tópicos 
@@ -80,11 +80,12 @@ Você encontrará sua aplicação rodando em: http://localhost:3000
 
 ## Dificuldades
 
-> Minhas principais dificuldades durante o desenvolvimento foi ter que lidar com datas, já havia trabalhado com esse tipo de dado em alguns projetos pessoais, porém nesse 
-  projeto por estar recebendo os dados de uma API tive que encontrar um meio de tratar as datas que estavam sendo retornadas, portanto utilizei a biblioteca moment.js que
-  facilita esse processo de tratamento e formatação de datas."
+> Minhas principais dificuldades durante o desenvolvimento foram ter que lidar com datas e deixar as imagens com um tamanho padrão e responsivas. Em relação a data, já havia trabalhado com esse tipo de dado em alguns projetos pessoais, porém nesse projeto por estar recebendo os dados de uma API da qual não tenho acesso para realizar alterações, tive que encontrar um meio de tratar as datas que estavam sendo retornadas, portanto utilizei a biblioteca moment.js que facilita esse processo de tratamento e formatação de datas. Quanto as imagens tive que definir uma altura padrão e deixar as imagens fluídas dentro de seus containers, utilizando o comando:
 
-
+```
+  object-fit: cover;
+  object-position: top;
+```
 
 ## Telas do projeto 
 
