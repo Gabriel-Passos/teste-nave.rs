@@ -1,0 +1,55 @@
+.naverCard-container {
+  width: 100%;
+  height: 554px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.naverCard-container > button {
+  width: 100%;
+  outline: 0;
+  
+  border: 0;
+  background: transparent;
+  
+  transition: filter 0.4s ease;
+}
+
+.naverCard-container > button:hover {
+  filter: brightness(0.8);
+}
+
+.naverCard-container > button img {
+  width: 100%;
+  height: 390px;
+
+  object-fit: cover;
+  object-position: top;
+
+  filter: grayscale();
+}
+
+.naverCard-container strong {
+  margin: 1.6rem 0 0.4rem;
+}
+
+.naverCard-container div {
+  margin-top: 1rem;
+}
+
+.naverCard-container > div button {
+  border: 0;
+  background-color: transparent;
+
+  font-size: 0;
+}
+
+.naverCard-container > div button:hover {
+  filter: brightness(0.5);
+}
+
+.naverCard-container > div button + button {
+  margin-left: 0.8rem;
+}

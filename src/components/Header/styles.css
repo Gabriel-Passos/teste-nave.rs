@@ -1,0 +1,22 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.6rem 2rem 0;
+}
+
+.header-container img {
+  width: 100%;
+  max-width: 146px;
+  height: auto;
+}
+
+.header-container button {
+  border: 0;
+
+  padding: 4px 12px;
+  background: transparent;
+
+  font-weight: 600;
+}

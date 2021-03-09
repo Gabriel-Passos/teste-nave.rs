@@ -1,0 +1,33 @@
+.login-container {
+  height: 100vh;
+  max-width: 560px;
+  padding: 2.5rem 2rem;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-container form {
+  border: 1px solid var(--primary);
+  padding: 2.5rem 2rem;
+
+  text-align: center;
+}
+
+.login-container form label {
+  text-align: start;
+}
+
+.login-container form img {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+
+  margin-bottom: 2rem;
+}
+
+.login-field {
+  text-align: start;
+}

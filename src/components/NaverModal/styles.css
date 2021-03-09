@@ -1,0 +1,81 @@
+.modal-container {
+  background: var(--white);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  
+  width: 100%;
+  max-width: 1000px;
+  height: 503px;
+
+  display: flex;
+
+  position: relative;
+}
+
+.modal-container > img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+  object-fit: cover;
+  object-position: top;
+
+  filter: grayscale();
+}
+
+.modal-container .btn-close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: transparent;
+  border: 0;
+
+  font-size: 0;
+}
+
+.modal-container .modal-info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 2rem 2rem 1rem;
+}
+
+.modal-container .modal-info > span {
+  padding: 1.6rem 0 2rem;
+}
+
+.modal-container .modal-info > strong {
+  padding-bottom: 0.8rem;
+}
+
+.modal-container .modal-info > p {
+  padding-bottom: 2rem;
+}
+
+.modal-container .modal-info .naver-projects {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.modal-container .modal-info .naver-projects > p {
+  padding-bottom: 0.4rem;
+}
+
+.modal-container .modal-info .modal-buttons > button {
+  background: transparent;
+  border: 0;
+
+  font-size: 0;
+}
+
+.modal-container .modal-info .modal-buttons > button + button {
+  margin-left: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .modal-container > img {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.component-button {
+  width: 100%;
+
+  padding: 1rem;
+  margin-top: 1rem;
+
+  background: var(--primary);
+
+  font-weight: 600;
+  color: var(--white);
+
+  border: 0;
+}
+
+.component-button:hover {
+  filter: brightness(0.7);
+}

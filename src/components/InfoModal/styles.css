@@ -1,0 +1,74 @@
+.info-modal-container {
+  background: var(--white);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  
+  width: 100%;
+  max-width: 592px;
+  height: auto;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: relative;
+}
+
+.info-modal-container h2 {
+  margin-bottom: 2.5rem;
+}
+
+.info-modal-container .btn-close-info-modal {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  margin: 1.6rem;
+
+  border: 0;
+  background: transparent;
+
+  font-size: 0;
+}
+
+.info-modal-container > div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.6rem;
+
+  margin-top: 1.6rem;
+}
+
+.info-modal-container > div button {
+  max-width: 176px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-modal-container > div button:first-child {
+  background: var(--white);
+  color: var(--primary);
+  box-shadow: var(--primary) 0 0 0 1px;
+}
+
+@media (max-width: 600px) {
+  .info-modal-container > div {
+    flex-wrap: wrap;
+  }
+
+  .info-modal-container > div button {
+    max-width: 100%;
+  }
+
+  .info-modal-container > div button:last-child {
+    margin-top: 0;
+  }
+}

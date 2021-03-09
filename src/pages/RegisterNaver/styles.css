@@ -1,0 +1,80 @@
+.register-container {
+  height: 100vh;
+  max-width: 792px;
+  padding: 2.5rem 2rem;
+  margin: 0 auto;
+}
+
+.register-container > nav {
+  display: flex;
+  align-items: center;
+
+  margin: 2rem 0 2.5rem;
+}
+
+.register-container > nav a {
+  font-size: 0;
+}
+
+.register-container > nav h2 {
+  margin-left: 1.6rem;
+}
+
+.register-container .register-fields {
+  display: flex;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  position: relative;
+}
+
+.register-container .register-fields input {
+  width: 100%;
+}
+
+.register-container .register-fields .register-right-fields > button {
+  max-width: 200px;
+
+  position: absolute;
+  right: 0;
+}
+
+.register-field-error-mobile {
+  display: none;
+}
+
+.register-field-error-desktop {
+  padding-top: 1rem;
+}
+
+@media (max-width: 730px) {
+  .register-field-error-desktop {
+    display: none;
+  }
+
+  .register-field-error-mobile{
+    display: block;
+  }
+
+  .register-container > nav {
+    justify-content: space-between;
+  }
+
+  .register-container .register-fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+
+  .register-container .register-fields .register-right-fields {
+    margin-top: -2rem;
+  }
+
+  .register-container .register-fields .register-right-fields button {
+    max-width: 100%;
+    position: static;
+  }
+
+}

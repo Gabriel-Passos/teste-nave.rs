@@ -1,0 +1,79 @@
+.update-container {
+  height: 100vh;
+  max-width: 792px;
+  padding: 2.5rem 2rem;
+  margin: 0 auto;
+}
+
+.update-container > nav {
+  display: flex;
+  align-items: center;
+
+  margin: 2rem 0 2.5rem;
+}
+
+.update-container > nav a {
+  font-size: 0;
+}
+
+.update-container > nav h2 {
+  margin-left: 1.6rem;
+}
+
+.update-container .update-fields {
+  display: flex;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  position: relative;
+}
+
+.update-container .update-fields input {
+  width: 100%;
+}
+
+.update-container .update-fields .update-right-fields button {
+  max-width: 200px;
+
+  position: absolute;
+  right: 0;
+}
+
+.update-field-error-mobile {
+  display: none;
+}
+
+.update-field-error-desktop {
+  padding-top: 1rem;
+}
+
+@media (max-width: 730px) {
+  .update-field-error-desktop {
+    display: none;
+  }
+
+  .update-field-error-mobile{
+    display: block;
+  }
+
+  .update-container > nav {
+    justify-content: space-between;
+  }
+
+  .update-container .update-fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+
+  .update-container .update-fields .update-right-fields {
+    margin-top: -2rem;
+  }
+
+  .update-container .update-fields .update-right-fields button {
+    max-width: 100%;
+    position: static;
+  }
+}

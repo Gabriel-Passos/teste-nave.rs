@@ -1,0 +1,22 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-size: 1rem;
+  font-weight: 600;
+
+  margin-bottom: 0.4rem;
+}
+
+.input-container input {
+  padding: 0.8rem;
+  margin-bottom: 1.6rem;
+
+  border: 1px solid var(--border);
+}
+
+.input-container input::placeholder {
+  color: var(--placeholder);
+}
