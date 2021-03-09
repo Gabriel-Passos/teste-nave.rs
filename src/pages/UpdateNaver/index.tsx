@@ -92,11 +92,7 @@ const UpdateNaver: React.FC = () => {
             <Input 
               label="Data de aniversário"
               name="birthdate"
-              placeholder={ naverData.birthdate === undefined ? (
-                'dd/mm/yyyy'
-              ) : (
-                String(naverData.birthdate.split('T'))
-              )}
+              placeholder="dd/mm/yyyy"
               value={birthdateNaver}
               onChange={event => setBirthdateNaver(event.target.value)}
             />
@@ -130,11 +126,7 @@ const UpdateNaver: React.FC = () => {
             <Input 
               label="Data de admissão"
               name="admission_date"
-              placeholder={naverData.admission_date === undefined ? (
-                'dd/mm/yyyy'
-              ) : (
-                String([naverData.admission_date.split('T')])
-              )}
+              placeholder="dd/mm/yyyy"
               value={admissionDate}
               onChange={event => setAdmissionDate(event.target.value)}
             />
