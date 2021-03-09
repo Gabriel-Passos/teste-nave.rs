@@ -29,7 +29,7 @@
 ### O que é <b><i>Nave.rs</i></b>?
 
 <p align="justify">
-  <b>Nave.rs</b> é uma aplicação CRUD padrão para gerenciar os Navers, podendo cadastar novos Navers, excluir, atualizar os dados e listar os existentes.
+  <b>Nave.rs</b> é uma aplicação CRUD padrão para gerenciar os Navers, podendo cadastrar novos Navers, excluir, atualizar os dados e listar os existentes.
 </p>
 
 ## Como rodar a aplicação :arrow_forward:
