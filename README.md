@@ -80,7 +80,7 @@ Você encontrará sua aplicação rodando em: http://localhost:3000
 
 ## Dificuldades
 
-> Minhas principais dificuldades durante o desenvolvimento foram ter que lidar com datas e deixar as imagens com um tamanho padrão e responsivas. Em relação a data, já havia trabalhado com esse tipo de dado em alguns projetos pessoais, porém nesse projeto por estar recebendo os dados de uma API da qual não tenho acesso para realizar alterações, tive que encontrar um meio de tratar as datas que estavam sendo retornadas, portanto utilizei a biblioteca moment.js que facilita esse processo de tratamento e formatação de datas. Quanto as imagens tive que definir uma altura padrão e deixar as imagens fluídas dentro de seus containers, utilizando o comando:
+> <p align="justify"> Minhas principais dificuldades durante o desenvolvimento foram ter que lidar com datas e deixar as imagens com um tamanho padrão e responsivas. Em relação a data, já havia trabalhado com esse tipo de dado em alguns projetos pessoais, porém nesse projeto por estar recebendo os dados de uma API da qual não tenho acesso para realizar alterações, tive que encontrar um meio de tratar as datas que estavam sendo retornadas, portanto utilizei a biblioteca moment.js que facilita esse processo de tratamento e formatação de datas. Quanto as imagens tive que definir uma altura padrão e deixar as imagens fluídas dentro de seus containers, utilizando o comando: </p>
 
 ```
   object-fit: cover;
