@@ -80,9 +80,10 @@ Você encontrará sua aplicação rodando em: http://localhost:3000
 
 ## Dificuldades
 
-> "Minhas principais dificuldades durante o desenvolvimento foi ter que lidar com datas, já havia trabalhado com esse tipo de dado em alguns projetos pessoais, porém nesse 
+> Minhas principais dificuldades durante o desenvolvimento foi ter que lidar com datas, já havia trabalhado com esse tipo de dado em alguns projetos pessoais, porém nesse 
   projeto por estar recebendo os dados de uma API tive que encontrar um meio de tratar as datas que estavam sendo retornadas, portanto utilizei a biblioteca moment.js que
   facilita esse processo de tratamento e formatação de datas."
+
 
 
 ## Telas do projeto 
